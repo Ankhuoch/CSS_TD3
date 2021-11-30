@@ -1,0 +1,214 @@
+body {
+    margin: 0px;
+}
+.home_container {
+    position: relative;
+    height: 100%;
+  }
+  .sidebar {
+    width: 22%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    padding-top: 20px;
+    font-family: 'Oswald', sans-serif;
+  }
+  .sidebar img {
+    width: 100px;
+    border-radius: 100%;
+    border: 2px solid #e5e5e5;
+  }
+  .sidebar h4 {
+    color: #d1cfcf;
+  }
+  #nav {
+    list-style-type: none;
+    text-align: center;
+    padding: 0px;
+  }
+  #nav li {
+    position: relative;
+    padding: 10px;
+    border-bottom: 1px solid rgb(237, 236, 236);
+    border-top: 1px solid rgb(237, 236, 236);
+    margin-top: -1px;
+    font-weight: bold;
+  }
+  #nav li.active {
+    background-color: #f5f3f3;
+  }
+  li.active a:after {
+    background-color: #f4c052;
+    display: block;
+    position: absolute;
+    content: ' ';
+    right: 0;
+    bottom: 0;
+    width: 3px;
+    height: 100%;  
+  }
+  #nav a {
+    color: black;
+    text-decoration: none;
+  }
+  .internet img{
+    border: 1px solid grey;
+    background-color: #d1cfcf;
+    width: 40px;
+  }
+  .container {
+    height: 100vh;
+    margin-left: 22%;
+    color:black;
+    position: relative;
+    font-family: 'Oswald', sans-serif;
+  }
+  .container .next_container {
+    height: 100vh;
+    color:black;
+    position: relative;
+    font-family: 'Oswald', sans-serif;
+    width: 100vh;
+    padding: 10px 60px 30px;
+  }
+  .container .first {
+      background-color: #f4c052;
+      border: 1px solid #f4c052;
+      color:white;
+      margin-right: 90%;
+      text-align: right;
+      padding: 7px;
+  }
+  .container .second {
+    position: absolute;
+    top: -5px;
+    left: 170px;
+    color:rgb(145, 139, 139)
+  }
+  .container .introduct{
+    width: 300px;
+    padding-left: 5px;
+  }
+  .introduct p {
+    font-family: sans-serif;
+    color: #5c5a5a;
+    line-height: 1.5;
+  }
+  .style h2 {
+    border-bottom: 3px solid rgb(233, 211, 10);
+  }
+  .testimomials {
+    position: absolute;
+    margin-left: 60%;
+    width: 300px;
+    top: 8px;
+    right: 16px;
+  }
+  .testimomials h3{
+    margin-top: -50px;
+    margin-left: 110px;
+  }
+  .testimomials h6{
+    margin-top: -15px;
+    margin-left: 110px;
+    color: #5c5a5a;
+  }
+  .testimomials p {
+    margin-left: 20%;
+    font-family: sans-serif;
+    background-color: #f1f0f0;
+    border: 1px solid rgb(136, 135, 135);
+    padding: 20px 20px 20px;
+    border-radius: 10px;
+  }
+  .testimomials img {
+    margin-top: -15%;
+    width: 90px;
+    border-radius: 50%;
+    border: 2px solid #e5e5e5;
+  }
+  #service {
+    list-style-type: none;
+    text-align: center;
+    padding: 0px;
+    margin: 0 auto;
+    display: table;
+  }
+  #service li {
+    position: relative;
+    display: table-cell;
+    padding: 10px 70px;
+    margin-top: 1px;
+    text-align: center; 
+    font-family: 'Oswald', sans-serif;
+  }
+  #service a {
+    color: black;
+    font-size:larger;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    position: relative;
+    bottom: -20px;
+  }
+  #service img {
+    width: 80px;
+    border: 2px solid #fff;
+  }
+  #service p {
+    font-family: sans-serif;
+    color: #5c5a5a;
+    width: 150px;
+    line-height: 1.5;
+  }
+  #client {
+    list-style-type: none;
+    text-align: center;
+    padding: 0px;
+    margin: 0 auto;
+    display: table;
+  }
+  #client img {
+    width: 80px;
+    border: 2px solid #fff;
+  }
+  #client li{
+    position: relative;
+    display: table-cell;
+    padding: 10px 50px;
+    margin-top: 1px;
+    text-align: center; 
+  }
+  .fun_facts {
+    margin-top: 1px;
+    border-spacing: 70px;
+    text-align: center;
+  }
+  .fun_facts tr{
+    position: relative;
+  }
+  .fun_facts td {
+    padding: 20px 80px 0px;
+    border: 2px solid rgb(237, 236, 236);
+  }
+  .fun_facts h4 {
+    position: absolute;
+    font-size: large;
+    color: black;
+    bottom: 15px;
+    text-align: center;
+  }
+  .fun_facts h3{
+    position: relative;
+    color: #f4c052;
+    bottom: -15px;
+  }
+  .fun_facts img {
+    width: 60px;
+  }
+  #dark {
+    background-color:#f5f3f3;
+  }
+  
+
+
